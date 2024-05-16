@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css grid</title>
+  <style>
+    .parent{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap:10px;
+      background-color:red;
+      padding: 10%;
+    }
+    .child{
+      background-color: aqua;
+      padding: 10%;
+      text-align: center;
+      
+    }
+    .child1{
+      grid-row-start: 1;
+      grid-row-end: 3; 
+      
+      }
+  </style>
+</head>
+<body>
+  <!--<button onclick="increaseElement()">Add</button>-->
+  <div class="parent">
+    <div class="child child1">Messi</div>
+    <div class="child">Dibala</div>
+    <div class="child">Mccalister</div>
+    <div class="child">Enzo</div>
+  </div>
+
+
+  <!--this is javscript language-->
+  <script>
+
+  /*  function increaseElement(){
+
+      const parentDiv = document.querySelector('.parent');
+
+      parentDiv.innerHTML += `<div class="child"> Sagor Hossain </div>`;
+
+
+    }*/
+    
+
+ 
+  </script>
+</body>
+</html>
